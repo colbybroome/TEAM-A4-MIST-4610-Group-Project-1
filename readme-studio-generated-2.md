@@ -155,54 +155,74 @@ The Live Music Circuit database is structured to manage the logistics of live pe
 ### Simple Queries
 
 **1.** List the artist name and their home city for all artists with names that start with the letter “A”. Order the results in descending order.
+
 <img width="625" height="196" alt="image" src="https://github.com/user-attachments/assets/099dc4c9-c53a-4fcb-9848-240b84439793" />
 
 Query 1 allows the firm to determine which artists under their management have names starting with "A" and where their home cities are located. The firm may use this information to organize their talent roster for specific alphabetical promotional materials or localized marketing campaigns, creating a more structured and targeted approach to regional promotions.
+
 **2.** List the venue IDs that have an age policy requiring attendees to be at least 18.
+
 <img width="629" height="416" alt="image" src="https://github.com/user-attachments/assets/02757f48-aaf2-46c0-86fd-7b4a9105444f" />
+
 Query 2 allows the firm to determine which venues restrict attendance strictly to adults (18 and over). The firm may use this information to ensure that artists with mature content are only booked at these specific venues, creating a legally compliant touring schedule and avoiding potential fines or brand damage.
 
 **3.** List the names and home cities of artists who are not from "Athens".
+
 <img width="628" height="409" alt="image" src="https://github.com/user-attachments/assets/154b88a1-02ff-417f-bf9b-1bea7a24636e" />
 
 Query 3 allows the firm to determine which artists are based outside of their immediate local market (Athens). The firm may use this information to better plan out-of-town touring schedules and accurately allocate travel budgets, creating more precise financial forecasts for tour support and travel expenses.
 
 **4.** Write a SQL statement that reports the total number of artists within the first 20 book slots and that are originally from Atlanta or Chicago.
+
 <img width="626" height="416" alt="image" src="https://github.com/user-attachments/assets/ce674beb-371d-4e31-8da5-6bf207739807" />
 
 Query 4 allows the firm to determine which artists from major hub cities (Atlanta and Chicago) are securing premium, early booking slots (first 20 slots). The firm may use this information to focus their promotional advertising dollars on these highly-billed regional artists, creating maximized ticket sales in those urban markets by capitalizing on the artists' prominent show placement.
+
 **5.** Find the inventory numbers of all "Microphones" that have a condition rating of "Fair".
+
 <img width="630" height="421" alt="image" src="https://github.com/user-attachments/assets/83e0f7c7-40b3-4196-9119-505703e26fc6" />
 
 Query 5 allows the firm to determine exactly which "Value Microphones" in their inventory are currently in "excellent" working condition. The firm may use this information to deploy these reliable, owned assets to upcoming mid-tier shows instead of renting new gear, creating significant cost savings on equipment rentals while ensuring high-quality audio.
+
 ### Complex Queries
 
-**1.** List the age policy for each artist performance (include artist name and show ID), considering artists who have at least one booking. Order the results by age policy in ascending order.
+**6.** List the age policy for each artist performance (include artist name and show ID), considering artists who have at least one booking. Order the results by age policy in ascending order.
+
 <img width="625" height="419" alt="image" src="https://github.com/user-attachments/assets/303e0c39-dd38-4b79-814e-b64c35faa352" />
 
-Query 6 allows the firm to determine the specific age restrictions tied to each artist’s upcoming performances. The firm may use this information to accurately segment their email marketing campaigns to the appropriate demographic, creating more efficient ad campaigns by preventing wasted ad spend on underage fans.
-**2.** For each artist, list the artist name and the total number of shows they performed where the artist’s average tickets sold across all their bookings is at least 100. Order the results by the artist name in descending order.
+Query 6 allows the firm to determine the specific age restrictions tied to each artist’s upcoming performances. The firm may use this information to accurately segment their email marketing campaigns to the appropriate demographic, creating more efficient ad campaigns 
+by preventing wasted ad spend on underage fans.
+
+**7.** For each artist, list the artist name and the total number of shows they performed where the artist’s average tickets sold across all their bookings is at least 100. Order the results by the artist name in descending order.
+
 <img width="620" height="419" alt="image" src="https://github.com/user-attachments/assets/5e6013f0-0866-49d5-a794-a01ba9d79e45" />
 
 Query 7 allows the firm to determine which artists consistently draw large crowds by maintaining an average of 100 or more ticket sales per show. The firm may use this information to reward their top-performing talent with priority contract renewals and larger venue assignments, creating an incentive for artists to stay with the agency while maximizing the firm's overall revenue.
 
-**3.** Write a SQL statement that lists the total number of tickets purchased by customers who are from Georgia. Order results by ascending price.
+**8.** Write a SQL statement that lists the total number of tickets purchased by customers who are from Georgia. Order results by ascending price.
+
 <img width="623" height="417" alt="image" src="https://github.com/user-attachments/assets/af8ea3a7-e3c1-4f11-a879-9ace349d973d" />
 
 Query 8 allows the firm to determine the pricing preferences and purchasing behavior of their local customer base in Georgia. The firm may use this information to adjust future ticket pricing tiers in that specific region, creating a perfectly balanced mix of budget and VIP tickets that local fans are actually willing to buy.
-**4.** List the number of shows per venue that are happening in June.
+
+**9.** List the number of shows per venue that are happening in June.
+
 <img width="624" height="421" alt="image" src="https://github.com/user-attachments/assets/61e2a3b1-4b88-4085-8511-5a788e2b8812" />
+
 Query 9 allows the firm to determine the booking density and utilization rate of each venue during the busy summer month of June. The firm may use this information to identify which venues have empty dates ("dark days") on their calendars to schedule last-minute summer shows, creating an opportunity to capture additional seasonal revenue.
 
-**5.** Find artist bookings where the slot order is higher than that artist’s average slot order across all events.
+**10.** Find artist bookings where the slot order is higher than that artist’s average slot order across all events.
+
 <img width="625" height="422" alt="image" src="https://github.com/user-attachments/assets/dd40abfa-2fcc-4170-a2b4-e6e3e6c20d9a" />
 
 Query 10 allows the firm to determine which artists are being booked in later, more prominent performance slots compared to their own historical averages. The firm may use this information to track an artist's rising popularity and momentum, creating the data-driven leverage needed for management to negotiate higher performance fees and better billing for their growing stars.
 
-**6.** List artists who have never been booked for a show.
+**11.** List artists who have never been booked for a show.
+
 <img width="632" height="406" alt="image" src="https://github.com/user-attachments/assets/43cef716-555a-46ca-a592-7d36c3205c6a" />
 
 Query 11 allows the firm to determine which represented artists currently have zero scheduled bookings. The firm may use this information to identify dormant talent on their roster to either launch new promotional pushes or drop them from the agency, creating a more efficient, active, and profitable talent pool.
+
 ## Query Features Matrix
 
 The following table indicates which advanced SQL features are utilized in each of our queries to ensure comprehensive coverage of database operations:
