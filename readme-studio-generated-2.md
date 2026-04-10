@@ -236,6 +236,3 @@ The following table indicates which advanced SQL features are utilized in each o
 | **Having** | | | | | | | X | | | | |
 | **Exist** | | | | | | | | | | | X |
 | **Order By** | X | | | | | X | X | X | | | |
-* **Aggregation Functions:** Includes `COUNT`, `AVG`, `MONTH`, etc.
-* **EXISTS / Correlated:** Includes queries where the inner subquery references a column from the outer main query.
-* 
