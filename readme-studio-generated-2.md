@@ -2,7 +2,7 @@
 **Course:** MIST 4610 
 
 ## Team Members
-* **Angelis Aponte** - Group Leader, SQL Writer, Data Wrangler
+* **Angelis Aponte** - SQL Writer, Data Wrangler
 * **Colby Broome** - Conceptual Modeler, Database Designer
 
 ---
