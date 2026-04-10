@@ -154,11 +154,11 @@ The Live Music Circuit database is structured to manage the logistics of live pe
 
 ### Simple Queries
 
-**1.** List the artist name and their home city for all artists with names that start with the letter “A”. Order the results in descending order.
+**1.** List the artist name and their home city for all artists with names that start with the letter “E”. Order the results in descending order.
 
 <img width="625" height="196" alt="image" src="https://github.com/user-attachments/assets/099dc4c9-c53a-4fcb-9848-240b84439793" />
 
-Query 1 allows the firm to determine which artists under their management have names starting with "A" and where their home cities are located. The firm may use this information to organize their talent roster for specific alphabetical promotional materials or localized marketing campaigns, creating a more structured and targeted approach to regional promotions.
+Query 1 allows the firm to determine which artists under their management have names starting with "E" and where their home cities are located. The firm may use this information to organize their talent roster for specific alphabetical promotional materials or localized marketing campaigns, creating a more structured and targeted approach to regional promotions.
 
 **2.** List the venue IDs that have an age policy requiring attendees to be at least 18.
 
