@@ -57,7 +57,7 @@ The Live Music Circuit database is structured to manage the logistics of live pe
 | :--- | :--- | :--- | :--- |
 | venue_id | Unique identifier for each physical venue | INT | Primary |
 | venue_name | The official name of the performance space | VARCHAR(45) | |
-| venue_phone | Primary contact number for the venue | VARCHAR(45) | |
+| venue_phone | Primary contact number for the venue | INT | |
 | venue_cap | Maximum audience capacity of the space | VARCHAR(45) | |
 | venue_age | Default minimum age requirement for entry | INT | |
 | venue_status | Indicates if the venue is currently an LMC partner | TINYINT(1) | |
@@ -78,7 +78,7 @@ The Live Music Circuit database is structured to manage the logistics of live pe
 | :--- | :--- | :--- | :--- |
 | artist_id | Unique identifier for the performer or band | INT | Primary |
 | artist_name | The stage name of the artist | VARCHAR(45) | |
-| artist_phone | Primary contact phone for the artist | VARCHAR(45) | |
+| artist_phone | Primary contact phone for the artist | INT | |
 | artist_home_city | The city where the artist is based | VARCHAR(45) | |
 
 ### BOOKING
