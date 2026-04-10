@@ -5,6 +5,10 @@
 * **Angelis Aponte** - SQL Writer, Data Wrangler
 * **Colby Broome** - Conceptual Modeler, Database Designer
 
+* ## Database Information
+* **Database Name:** `mb_A4` 
+* **Stored Procedures:** All 11 queries for this project have been bookmarked as stored procedures on the MySQL server as GP_Q#
+
 ---
 
 ## Problem Description
