@@ -177,3 +177,25 @@ The Live Music Circuit database is structured to manage the logistics of live pe
 **5.** Find artist bookings where the slot order is higher than that artist’s average slot order across all events.
 
 **6.** List artists who have never been booked for a show.
+## Query Features Matrix
+
+The following table indicates which advanced SQL features are utilized in each of our queries to ensure comprehensive coverage of database operations:
+
+| Query | Basic Filtering / Sorting | Single JOIN | Multiple JOINs | Aggregation Functions | GROUP BY | HAVING | Subquery | EXISTS / Correlated |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Simple 1** | X | | | | | | | |
+| **Simple 2** | X | | | | | | | |
+| **Simple 3** | X | | | | | | | |
+| **Simple 4** | X | X | | X | | | | |
+| **Simple 5** | X | X | | | | | | |
+| **Complex 1** | X | | X | | | | | |
+| **Complex 2** | X | | X | X | X | X | X | |
+| **Complex 3** | X | | X | X | X | | | |
+| **Complex 4** | X | X | | X | X | | | |
+| **Complex 5** | X | X | | X | | | X | X |
+| **Complex 6** | X | | | | | | X | X |
+
+* **Basic Filtering / Sorting:** Includes `WHERE`, `ORDER BY`, `REGEXP`, and `IN`.
+* **Aggregation Functions:** Includes `COUNT`, `AVG`, `MONTH`, etc.
+* **EXISTS / Correlated:** Includes queries where the inner subquery references a column from the outer main query.
+* 
