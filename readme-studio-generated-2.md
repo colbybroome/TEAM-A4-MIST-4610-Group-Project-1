@@ -213,7 +213,7 @@ Query 9 allows the firm to determine the booking density and utilization rate of
 
 **10.** Find artist bookings where the slot order is higher than that artist’s average slot order across all events.
 
-<img width="625" height="422" alt="image" src="https://github.com/user-attachments/assets/dd40abfa-2fcc-4170-a2b4-e6e3e6c20d9a" />
+<img width="1161" height="787" alt="image" src="https://github.com/user-attachments/assets/bad0a612-3744-40d8-8d49-c14dbf51eddb" />
 
 Query 10 allows the firm to determine which artists are being booked in later, more prominent performance slots compared to their own historical averages. The firm may use this information to track an artist's rising popularity and momentum, creating the data-driven leverage needed for management to negotiate higher performance fees and better billing for their growing stars.
 
