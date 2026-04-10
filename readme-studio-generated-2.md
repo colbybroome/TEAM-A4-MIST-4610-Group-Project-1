@@ -180,22 +180,16 @@ The Live Music Circuit database is structured to manage the logistics of live pe
 ## Query Features Matrix
 
 The following table indicates which advanced SQL features are utilized in each of our queries to ensure comprehensive coverage of database operations:
-
-| Query | Basic Filtering / Sorting | Single JOIN | Multiple JOINs | Aggregation Functions | GROUP BY | HAVING | Subquery | EXISTS / Correlated |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Simple 1** | X | | | | | | | |
-| **Simple 2** | X | | | | | | | |
-| **Simple 3** | X | | | | | | | |
-| **Simple 4** | X | X | | X | | | | |
-| **Simple 5** | X | X | | | | | | |
-| **Complex 1** | X | | X | | | | | |
-| **Complex 2** | X | | X | X | X | X | X | |
-| **Complex 3** | X | | X | X | X | | | |
-| **Complex 4** | X | X | | X | X | | | |
-| **Complex 5** | X | X | | X | | | X | X |
-| **Complex 6** | X | | | | | | X | X |
-
-* **Basic Filtering / Sorting:** Includes `WHERE`, `ORDER BY`, `REGEXP`, and `IN`.
+| SQL Feature | Query 1 | Query 2 | Query 3 | Query 4 | Query 5 | Query 6 | Query 7 | Query 8 | Query 9 | Query 10 | Query 11 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Multiple Joins** | | | | | | X | X | X | | | |
+| **Subquery** | | | | | | | X | | | X | X |
+| **Correlated Subquery**| | | | | | | | | | X | |
+| **Group By** | | | | | | | X | X | X | | |
+| **Built In Functions** | | | | X | | | X | X | X | X | |
+| **Having** | | | | | | | X | | | | |
+| **Exist** | | | | | | | | | | | X |
+| **Order By** | X | | | | | X | X | X | | | |
 * **Aggregation Functions:** Includes `COUNT`, `AVG`, `MONTH`, etc.
 * **EXISTS / Correlated:** Includes queries where the inner subquery references a column from the outer main query.
 * 
