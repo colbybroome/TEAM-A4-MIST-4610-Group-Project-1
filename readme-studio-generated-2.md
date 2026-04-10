@@ -22,8 +22,7 @@ LMC’s operations include tracking **Venue Affiliations** to manage shared owne
 
 ## Data Model
 
-*(Insert your PNG image here on GitHub by dragging and dropping it into the editor)*
-`![LMC Data Model](link_to_your_image.png)`
+<img width="1193" height="811" alt="gp" src="https://github.com/user-attachments/assets/9575b2cc-2948-41a9-b8a8-d0bf9d1dfad6" />
 
 ### Entity Relationship Explanation
 The Live Music Circuit database is structured to manage the logistics of live performances and production resources. The relationships are defined as follows:
